@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   <title>音阶查找索引</title>
   <!-- 引用外部样式表 -->
-  <link rel="stylesheet" href="/musictools/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="piano-container">
+  <!-- 标题和下载按钮（桌面端按钮通过绝对定位浮动，移动端按钮通过媒体查询变为块级） -->
   <div class="page-title">🎹 音阶查找索引</div>
+  <button class="download-btn" id="downloadBtn">📥 离线下载（用浏览器打开文件）</button>
 
   <div class="centered-modules">
     <div class="scale-name-container">
@@ -62,6 +64,6 @@
 </div>
 
 <!-- 引用外部JavaScript文件 -->
-<script src="/musictools/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
